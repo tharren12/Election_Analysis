@@ -43,3 +43,7 @@ The analysis of the election shows that:
 
 ## Election-Audit Summary
 
+This same audit program could be easily used for other elections in order to calculate the results. There would just need to be a few modifications in order to achieve this, they are as follows:
+
+* In the input file there should be an additional variable to capture the name of the election, so the results can be tabulated for just that election
+* Would have to create another loop in the data in order to go through all of the steps for each of the elections and then a specific output file can be created for each of the elections to keep it seperate
